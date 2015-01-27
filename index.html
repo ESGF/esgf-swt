@@ -3,7 +3,7 @@ layout: default
 ---
 
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>  
-<script type="text/javascript" src="{{ site.baseurl }}js/simpleJekyllSearch.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/simpleJekyllSearch.js"></script>
 <div class="home">
 
   <div id="search-demo-container">
@@ -35,7 +35,7 @@ layout: default
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     dataSource: '/esgf-swt/search.json',
-    searchResultTemplate: '<li><a href="{{site.baseurl}}{url}" title="{desc}">{title}</a></li>',
+    searchResultTemplate: '<li><a href="{{site.baseurl}}/{url}" title="{desc}">{title}</a></li>',
     noResultsText: 'No results found',
     limit: 10,
     fuzzy: false,

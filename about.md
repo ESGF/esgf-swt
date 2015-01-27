@@ -14,7 +14,7 @@ Members
 * [Nicolas Carenton][ncaripsl]
 * [Frank Toussaint][Frank]
 * [Karl Taylor][Karl]
-* [Claire Trenham][Claire]
+* [Claire Trenham][cet900]
 
 [TorstenRathmann]: https://github.com/TorstenRathmann
 [mattben]: https://github.com/mattben
@@ -24,5 +24,5 @@ Members
 [ncaripsl]: https://github.com/ncaripsl
 [Frank]: #
 [Karl]: #
-[Claire]: #
+[cet900]: https://github.com/cet900
 
