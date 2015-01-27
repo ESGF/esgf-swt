@@ -3,7 +3,7 @@ title: ESGF User Support
 email: esgf-swt@llnl.gov
 description: > # this means to ignore newlines until "baseurl:"
   ESGF Support Working Team attempting to make end users life suck less.
-baseurl: "http://esgf.github.io/esgf-swt/" # the subpath of your site, e.g. /blog/
+baseurl: "/esgf-swt/" # the subpath of your site, e.g. /blog/
 url: "https://esgf.github.io" # the base hostname & protocol for your site
 #twitter_username: ESGForg
 github_username:  ESGF
