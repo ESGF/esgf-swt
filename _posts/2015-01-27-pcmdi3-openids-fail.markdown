@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "PCMDI3 openid failing"
+categories: openid, pcmdi3 
 date:   2015-01-27 09:05:12
-categories: jekyll update
 ---
 
 ###Question
