@@ -39,7 +39,7 @@ layout: default
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         dataSource: '/esgf-swt/search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        searchResultTemplate: '<li><a href="{{site.baseurl}}{url}" title="{desc}">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 10,
         fuzzy: false,
