@@ -1,0 +1,11 @@
+*.pyc
+*.swp
+db.*
+env/
+static/
+esgf_issues/local_settings.py
+/local_settings.py/
+
+
+_site
+.sass-cache
