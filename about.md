@@ -12,6 +12,8 @@ Members
 * [Georgi Kostov][ghkostov]
 * [Prashanth Dwarakanath][pchengi]
 * [Nicolas Carenton][ncaripsl]
+* [Frank Toussaint][]
+* [Karl Taylor][]
 
 [TorstenRathmann]: https://github.com/TorstenRathmann
 [mattben]: https://github.com/mattben

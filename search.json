@@ -1,0 +1,17 @@
+---
+---
+[
+{% for item in site.categories.about %}
+  {% include post.json %},
+{% endfor %}
+{% for item in site.categories.projects %}
+  {% include post.json %},
+{% endfor %}
+{% for item in site.categories.team %}
+  {% include post.json %},
+{% endfor %}
+{% for item in site.categories.blog limit:200 %}
+  {% include post.json %},
+{% endfor %}
+false
+]
