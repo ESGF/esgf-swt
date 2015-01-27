@@ -12,6 +12,9 @@ Members
 * [Georgi Kostov][ghkostov]
 * [Prashanth Dwarakanath][pchengi]
 * [Nicolas Carenton][ncaripsl]
+* [Frank Toussaint][Frank]
+* [Karl Taylor][Karl]
+* [Claire Trenham][cet900]
 
 [TorstenRathmann]: https://github.com/TorstenRathmann
 [mattben]: https://github.com/mattben
@@ -19,5 +22,7 @@ Members
 [ghkostov]: https://github.com/ghkostov
 [pchengi]: https://github.com/pchengi
 [ncaripsl]: https://github.com/ncaripsl
-
+[Frank]: #
+[Karl]: #
+[cet900]: https://github.com/cet900
 
