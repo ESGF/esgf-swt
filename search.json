@@ -7,7 +7,6 @@
         "categories" : "{{ post.categories }}", 
         "url" : "{{ post.url }}", 
         "date" : "{{ post.date }}" 
-        "author" : "{{ post.author }}" 
       }{% if forloop.last %}{% else %},{% endif %}
     {% endfor %}
   ]
