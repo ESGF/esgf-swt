@@ -1,6 +1,6 @@
 # Site settings
 title: ESGF User Support
-email: esgf-swt@llnl.gov
+email: esgf-user@lists.llnl.gov
 description: > # this means to ignore newlines until "baseurl:"
   ESGF Support Working Team attempting to make end users life suck less.
 baseurl: "/esgf-swt/" # the subpath of your site, e.g. /blog/
