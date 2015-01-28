@@ -1,4 +1,4 @@
 ###ESGF Support Working Team
 
-[Creating anew post](http://jekyllrb.com/docs/posts/)
+[Creating a new post](https://github.com/ESGF/esgf-swt/wiki/Adding-a-new-Post)
 
