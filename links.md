@@ -16,6 +16,11 @@ permalink: /links/
 
 ---
 
+* Media
+  * [videos](http://esgf.llnl.gov/mov/)
+
+---
+
 * Wikis
   * [General](https://github.com/ESGF/esgf.github.io/wiki)
   * [Support](https://github.com/ESGF/esgf-swt/wiki)
@@ -24,32 +29,6 @@ permalink: /links/
   * [Search](https://github.com/ESGF/esg-search/wiki)
   * [Dashboard](https://github.com/ESGF/esgf-dashboard/wiki)
   * [CoG](https://earthsystemcog.org/projects/cog)
-
----
-
-* Issues
-  * [ompute](https://github.com/ESGF/compute/issues)
-  * [esg-orp](https://github.com/ESGF/esg-orp/issues)
-  * [esg-publisher](https://github.com/ESGF/esg-publisher/issues)
-  * [esg-search](https://github.com/ESGF/esg-search/issues)
-  * [esgf-artifacts]( https://github.com/ESGF/esgf-artifacts/issues)
-  * [esgf-dashboard](https://github.com/ESGF/esgf-dashboard/issues)
-  * [esgf-desktop](https://github.com/ESGF/esgf-desktop/issues)
-  * [esgf-dist](https://github.com/ESGF/esgf-dist/issues)
-  * [esgf-drslib](https://github.com/ESGF/esgf-drslib/issues)
-  * [esgf-fetcher](https://github.com/ESGF/esgf-fetcher/issues)
-  * [esgf-getcert](https://github.com/ESGF/esgf-getcert/issues)
-  * [Website](https://github.com/ESGF/esgf.github.io/issues)
-  * [Support Site](https://github.com/ESGF/esgf-swt/issues)
-  * [esgf-idp](https://github.com/ESGF/esgf-idp/issues)
-  * [esgf-installer](https://github.com/ESGF/esgf-installer/issues)
-  * [esgf-node-manager](https://github.com/ESGF/esgf-node-manager/issues)
-  * [esgf-publisher-resources](https://github.com/ESGF/esgf-publisher-resources/issues)
-  * [esgf-security](https://github.com/ESGF/esgf-security/issues)
-  * [esgf-test-suite](https://github.com/ESGF/esgf-test-suite/issues)
-  * [esgf-utils](https://github.com/ESGF/esgf-utils/issues)
-  * [esgf-web-fe](https://github.com/ESGF/esgf-web-fe/issues)
-  * [CoG](https://github.com/EarthSystemCoG/COG/issues)
 
 ---
 
@@ -80,5 +59,26 @@ permalink: /links/
 
 ---
 
-* Media
-  * [videos](http://esgf.llnl.gov/mov/)
+* Issues
+  * [ompute](https://github.com/ESGF/compute/issues)
+  * [esg-orp](https://github.com/ESGF/esg-orp/issues)
+  * [esg-publisher](https://github.com/ESGF/esg-publisher/issues)
+  * [esg-search](https://github.com/ESGF/esg-search/issues)
+  * [esgf-artifacts]( https://github.com/ESGF/esgf-artifacts/issues)
+  * [esgf-dashboard](https://github.com/ESGF/esgf-dashboard/issues)
+  * [esgf-desktop](https://github.com/ESGF/esgf-desktop/issues)
+  * [esgf-dist](https://github.com/ESGF/esgf-dist/issues)
+  * [esgf-drslib](https://github.com/ESGF/esgf-drslib/issues)
+  * [esgf-fetcher](https://github.com/ESGF/esgf-fetcher/issues)
+  * [esgf-getcert](https://github.com/ESGF/esgf-getcert/issues)
+  * [Website](https://github.com/ESGF/esgf.github.io/issues)
+  * [Support Site](https://github.com/ESGF/esgf-swt/issues)
+  * [esgf-idp](https://github.com/ESGF/esgf-idp/issues)
+  * [esgf-installer](https://github.com/ESGF/esgf-installer/issues)
+  * [esgf-node-manager](https://github.com/ESGF/esgf-node-manager/issues)
+  * [esgf-publisher-resources](https://github.com/ESGF/esgf-publisher-resources/issues)
+  * [esgf-security](https://github.com/ESGF/esgf-security/issues)
+  * [esgf-test-suite](https://github.com/ESGF/esgf-test-suite/issues)
+  * [esgf-utils](https://github.com/ESGF/esgf-utils/issues)
+  * [esgf-web-fe](https://github.com/ESGF/esgf-web-fe/issues)
+  * [CoG](https://github.com/EarthSystemCoG/COG/issues)
