@@ -13,6 +13,7 @@ permalink: /links/
 * Website 
   * [github](https://esgf.github.io)
   * [backup](http://esgf.llnl.gov)
+  * [esgf-swt](http://esgf.github.io/esgf-swt/)
 
 ---
 
