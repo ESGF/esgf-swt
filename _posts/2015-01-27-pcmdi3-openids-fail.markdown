@@ -9,7 +9,7 @@ author: Matthew Harris
 ###Question
 I can not log in with my pcmdi3 opedid?  `https://pcmdi3.llnl.gov/esgcet/myopenid/username` I'm getting an error `Error: unable to resolve OpenID identifier.`.
 
-###Anwser
+###Answer
 All pcmdi3 openids have been truncated. Unfortunately, they have not yet been
 purged from all nodes' databases, which means that if you click `forgot openid` it
 may display a pcmdi3 openid that you will be unable to login with it.
