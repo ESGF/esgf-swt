@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "User forgot password"
-categories: account, openid
+categories: account, openid, wget
 date:   2015-02-05 12:57:01
 author: Matthew Harris
 ---
