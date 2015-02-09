@@ -8,17 +8,15 @@ permalink: /openid/
   <h1 class="page-heading"> openid Questions</h1>
 
   <ul class="post-list">
+    <hr>
     {% for post in site.posts %}
-      {% if post.categories contains 'openid' %}
       <li>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <p> {{ post.content }} </p>
+    <hr>
     </li>
-      {% endif %}
   {% endfor %}
   </ul>
+
 
 </div>

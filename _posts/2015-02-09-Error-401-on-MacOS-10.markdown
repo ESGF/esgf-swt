@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Error 401 on MacOS 10.7"
+categories: wget
+date: 2015-02-09 14:28:21
+author: Matthew Harris
+---
+
+If a wget script that is working fine on a non-MacOS system is consistently failing with a 401 error on a MacOS system, the following things should be checked
+* wget is the latest version: this problem was seen on wget 1.13, but not on a system with wget 1.14, on a MacOS 10.7 system
+* GnuTLS v2 is in use, NOT GnuTLS 3: GnuTLS 3 has problems dealing with a large number of CA certificates
+* If all else fails, try upgrading from MacOS 10.7 to MacOS 10.8

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Internal Server Error when registering for CMIP5 access?"
+categories: registration download CMIP5
+date: 2015-02-09 11:57:21
+author: Matthew Harris
+---
+
+The registration workflow doesn't work very well on Windows machines, even when using a recent version of FireFox . You may find that after being redirected to the registration page, clicking on the registration button causes the following error:
+
+`HTTP Status 500 - java.lang.Exception: HTTP POST request failed: url= https://pcmdi9.llnl.gov/esgf-idp/secure/registrationService.htm error=HTTP/1.1 500 Internal Server Error`
+
+Possible solutions:
+
+* Quit FireFox , empty its cache, try again
+* Restart FireFox, open a "New Private Window" (FireFox does not remember its cache and cookies in this mode)
+* Use Internet Explorer on Windows
+* Log onto the pcmdi9 portal, go the Account page, and apply for CMIP5 Research group there
