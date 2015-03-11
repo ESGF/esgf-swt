@@ -8,8 +8,6 @@ author: Matthew Harris
 
 `https://pcmdi3.llnl.gov/esgcet/myopenid/username` I'm getting an error `Error: unable to resolve OpenID identifier.`.
 
-batman
-
 All pcmdi3 openid's have been truncated. Unfortunately, they have not yet been
 purged from all nodes' databases, which means that if you click `forgot openid` it
 may display a pcmdi3 openid that you will be unable to login with it.
