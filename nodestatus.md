@@ -46,6 +46,6 @@ permalink: /nodestatus/
 | SMHI  | http://esg-dn1.nsc.liu.se                 | web-fe        | up     |
 | UIO   | http://noresg.norstore.uio.no             | web-fe        | up     |
 |-------+-------------------------------------------+---------------+--------|
-{: class="table"}
+{: class="table table-striped"}
 
 last updated: 03/11/15 : 14:56:47
