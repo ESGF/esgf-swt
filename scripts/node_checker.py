@@ -16,13 +16,16 @@ import urllib
 
 path_to_file = "../nodestatus.md"
 URL = "URL"
+
+
 node_manager = "esgf-node-manager"
 esgf_web_fe = "esgf-web-fe"
 thredds = "thredds"
-up = " up"
-down = " down"
+
+up = " up     "
+down = " down   "
 date = time.strftime("%x") + " : " + time.strftime("%X")
-none = " - "
+
 rows = []
 urls = []
 newfile = []
@@ -32,32 +35,31 @@ infile = open(path_to_file).readlines()
 clean_string = ''
 for line in infile:
     line = line.strip()
-    if "|" in line and "---" not in line:
+    if "|" in line and "+" not in line:
     	rows = line.split("|")
-        if rows[1].strip() == URL:
+        if rows[2].strip() == URL:
             newfile.append(line) 
             continue
         else:
-            url = rows[1].strip()
-            if not url: 
-                rows[3] = none
-            else:
-                try:
-                    print url
-                    resp = urllib.urlopen(url)
-                    code = resp.next()
-                    if node_manager not in code and esgf_web_fe not in code and thredds not in code: 
-                        rows[3] = down
-                    elif resp.getcode() != 200:
-                        rows[3] = down
-                    else: 
-                        rows[3] = up
-                except: 
-                    rows[3] = down 
-                    #print traceback.format_exc()
+            url = rows[2].strip()
+            try:
+                print url
+                resp = urllib.urlopen(url)
+                code = resp.next()
+                if node_manager not in code and esgf_web_fe not in code and thredds not in code: 
+                    rows[4] = down
+                elif resp.getcode() != 200:
+                    rows[4] = down
+                else: 
+                   rows[4] = up
+            except: 
+                rows[4] = down 
+                #print traceback.format_exc()
 
             temp =  "|".join(rows)
             newfile.append(temp)
+    elif "last" in line:
+        continue #last line
     else: 
       newfile.append(line)
 
