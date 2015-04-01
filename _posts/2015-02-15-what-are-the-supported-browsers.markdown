@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "What browsers do ESGF portals support?"
-categories: browser portal user
-date:   2015-04-01 14:52:00
-author: Matthew Harris
+categories: search, download
+date:   2015-04-01 19:45:00
+author: Matthew Harris, Torsten Rathmann
 ---
 
-Answer
+Answer:
 
 * Firefox 7+
 * Chrome 16+

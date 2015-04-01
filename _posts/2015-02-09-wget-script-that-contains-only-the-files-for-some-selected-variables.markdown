@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "How can I create a wget script that contains only the files for some selected variables?"
-categories: wget
-date: 2015-02-09 12:02:21
-author: Matthew Harris
+categories: download, wget
+date: 2015-04-01 20:30:00
+author: Matthew Harris, Torsten Rathmann
 ---
-
-Please note: the procedure used to generate a wget script that only contains files for a specified variable has changed with the latest ESGF release. Not all ESGF portals have upgraded to the latest version of the software yet. If in doubt, please use the pcmdi9.llnl.gov or esg-datanode.jpl.nasa.gov portals.
 
 Please follow these steps:
 
