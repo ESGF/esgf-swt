@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "getcert.jar cannot be retrieved"
-categories: wget
-date: 2015-02-09 14:28:21
-author: Matthew Harris
+categories: download wget
+date: 2015-04-01 20:00:00
+author: Matthew Harris, Torsten Rathmann
 ---
 
 Example error message:
@@ -21,13 +21,5 @@ Solution 1: remove all contents of the directory ~/.esg and try running the wget
 
 Solution 2: the wget application installed on your system might not be compiled with SSL. You can check this by issuing "wget -help" and investigating wether or not there are some SSL options. If not, talk to your system administrator about installing a new version of wget with SSL support
 
-Solution 3: your system might not be trusting VeriSign, the Certificate Authority that issued the certificate of "rainbow". Try to do the following:
-* Create a file ~/.wgetrc with the following content: check_certificate = off . This line is instructing wget to accept all certificates, from any host.
-* Remove all contents of the directory ~/.esg
-* Run the wget script again
+Solution 3: you can try to obtain a certificate on another system (for example, clicking on the link " MyProxy, and then copy the certificate from the other system onto the old system where you want to run, in the location ~/.esg/credentials.pem
 
-Solution 4: your system may be behind a proxy that does not allow connections to the rainbow server. Try setting the following environment variables and run the wget script again:
-* export http_proxy="my-proxy.dmz:80"
-* export https_proxy="my-proxy.dmz:443"
-
-Solution 5: you can try to obtain a certificate on another system (for example, clicking on the link " MyProxy, and then copy the certificate from the other system onto the old system where you want to run, in the location ~/.esg/credentials.pem

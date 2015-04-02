@@ -1,0 +1,22 @@
+---
+layout: post                     #<-- don't touch
+title:  "How can I get data for a specified area only?" #<-- keep the quotes " ... "
+categories: download, OPENDAP    #<-- No quotes, comma separated tags
+date:   2015-03-24 20:40:00      #<-- current date and time
+author: Torsten Rathmann         #<-- Replace with the name
+---
+
+If you want to specify an area and download data for that area only, you may look for an OPENDAP download link. Data downloaded via OPENDAP are in ASCII CSV (Comma Separated Values, readable text) oder dodc, a binary OPENDAP data format. Unfortunately, not all data are available via OPENDAP; you have to search.
+
+In ESGF Search, add the data you are interested in to your Cart and click on "Show Files" and then, if available, on "OPENDAP". In the "OPeNDAP Dataset Access Form" fill in the index ranges you want and get the array. Details for ASCII CSV:
+
+* The "OPeNDAP Dataset Access Form" consists of many coordinate variable blocks (time, time_bnds, lat, lat_bnds, lon, lon_bnds, height) followed by the data variable you are interested in, e.g. near surface temperature tas. First enable all the coordinate variables to find out which indices you need (check the checkboxes)
+* Click on the "GetASCII" button
+* The ASCII output contains the values of the coordinate variables. The same indices will be used in the data variable array. Choose an index range
+* Check the data variable checkbox and type-in your index ranges there. Three integers may be set for each coordinate variable: lower boundary index, increment, upper boundary index
+* Click on the "GetASCII" button again
+* The output should contain your data variable array now. If the array is too big, an error message is thrown. In this case reduce the index ranges or increase the increments. For example "time: 0:2:100" will provide every second value of the first 100 times
+* Copy and paste the data variable array to a file
+
+Back to ESGF Search: In case you don't find OPeNDAP in the link list, please try a replica from another data node. You may see replicas together with the original in your search results list if you enable the checkboxes "Search All Sites" and "Show All Replicas". You can confirm the replica is identical by checking the md5 sum against that of the file you were unable to access as listed in the ESGF through the HTTP download interface.
+
