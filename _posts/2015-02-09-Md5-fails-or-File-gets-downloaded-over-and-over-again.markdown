@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Md5 fails or File gets downloaded over and over again"
-categories: wget
-date: 2015-02-09 14:28:21
-author: Matthew Harris
+categories: download, wget
+date: 2015-04-01 21:20:00
+author: Matthew Harris, Torsten Rathmann
 ---
 
 The md5 checksum does not match

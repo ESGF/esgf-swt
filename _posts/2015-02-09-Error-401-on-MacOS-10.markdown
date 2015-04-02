@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Error 401 on MacOS 10.7"
-categories: wget
-date: 2015-02-09 14:28:21
-author: Matthew Harris
+categories: download, wget
+date: 2015-04-01 18:41:00
+author: Matthew Harris, Torsten Rathmann
 ---
 
 If a wget script that is working fine on a non-MacOS system is consistently failing with a 401 error on a MacOS system, the following things should be checked

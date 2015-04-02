@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Cannot resolve openid?"
-categories: openid
-date: 2015-02-09 11:59:21
-author: Matthew Harris
+title:  "Cannot resolve openid"
+categories: login
+date: 2015-04-01 17:30:00
+author: Matthew Harris, Torsten Rathmann
 ---
 
 This could be either a problem with the user account, or with the server setup where the user registered:
