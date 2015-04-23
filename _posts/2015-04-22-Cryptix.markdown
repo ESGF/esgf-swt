@@ -2,7 +2,7 @@
 layout: post
 title:  "algorithm/RSA/ECB/PKCS1Padding is not available from provider Cryptix"
 categories: download, wget
-date: 2015-04-22 21:00:00
+date: 2015-04-23 19:35:00
 author: Torsten Rathmann
 ---
 
@@ -12,7 +12,7 @@ Error message:
 
 Two solutions are possible in case of this Java issue:
 
-1. Run the wget script with the -H option.
+1) Run the wget script with the -H option.
 
      bash wget-################.sh -H
 
@@ -21,5 +21,5 @@ This easy solution should work, if
 * The ESGF portal you use for script generation runs version 1.8 of ESGF software (The version is shown in the brown rectangle at the bottom of the Home page)
 * The data you need are not from NCAR
 
-2. Install Oracle Java 1.7 or newer and add it to your environment (define JAVA_HOME etc.)
+2) Install Oracle Java 1.7 or newer and add it to your environment (define JAVA_HOME etc.)
 
