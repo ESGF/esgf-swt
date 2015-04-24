@@ -20,8 +20,8 @@ Error message:
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:323)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:294)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:268)
-Could not find the main class: esg.security.myproxy.MyProxyConsole. Program will exit.
-Certificate could not be retrieved
+     Could not find the main class: esg.security.myproxy.MyProxyConsole. Program will exit.
+     Certificate could not be retrieved
 
 Two solutions are possible in case of this Java issue:
 
