@@ -13,8 +13,11 @@ The **registration workflow** doesn't work very well on Windows machines, even w
 Possible solutions for registration issues:
 
 **Solution 1:** Quit Firefox, empty its cache, try again
+
 **Solution 2:** Restart Firefox, open a "New Private Window" (Firefox does not remember its cache and cookies in this mode)
+
 **Solution 3:** Use Internet Explorer on Windows
+
 **Solution 4:** In case you want to register to a group, log onto your ESGF portal, go to the Account page and register there
 
 If you use a **wget script** and see a "500 Internal Server Error", this is a server issue. Please try finding a replica (enable the checkbox "Show All Replicas").
