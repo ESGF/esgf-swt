@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cannot resolve openid"
-categories: login
+categories: login, download, HTTP
 date: 2015-04-28 21:05:00
 author: Matthew Harris, Torsten Rathmann
 ---
