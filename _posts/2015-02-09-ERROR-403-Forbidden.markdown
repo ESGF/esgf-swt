@@ -23,7 +23,8 @@ For download of CMIP5 data you need to be member of either *CMIP5 Research* (for
 For download of CORDEX data you need to be member of either *CORDEX Research* (for non-commercial research and education only) or *CORDEX Commercial*.
 
 **Solution in case of a server issue:**
-Try downloading a replica. Many data are also available as a copy, especially most CMIP5 data. Enable the checkbox “Show All Replicas” in ESGF Search. If you want to include the tape based node wdcc-esgf.dkrz.de, which behaves different from a normal ESGF data node, also enable “Show All Versions”.
+
+Try downloading a replica. Many data are also available as a replica, especially most CMIP5 data. Enable the checkbox “Show All Replicas” in ESGF Search. If you want to include the tape based node wdcc-esgf.dkrz.de, which behaves different from a normal ESGF data node, also enable “Show All Versions”.
 
 [CMIP5 Terms of Use]: http://cmip-pcmdi.llnl.gov/cmip5/docs/CMIP5_modeling_groups.pdf
 
