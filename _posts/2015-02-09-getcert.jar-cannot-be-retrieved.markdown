@@ -29,8 +29,8 @@ Then authentication will be tried without certificates. This easy solution shoul
 * The data you need are not from NCAR data node tds.ucar.edu (error message: "http request to OpenID Relying Party service failed.")
 
 **Solution 3:** The wget application installed on your system might not be compiled with SSL. You can check this by issuing "wget -help" and investigating wether or not there are some SSL options. If not
-* try using the wget script with the -T option. Another cryptographic protocol will be used for communication then: TLS (Transport Layer Security) instead of SSL (Secure Sockets Layer) or
-* talk to your system administrator about installing a new version of wget with SSL support
+* Try using the wget script with the -T option. Another cryptographic protocol will be used for communication then: TLS (Transport Layer Security) instead of SSL (Secure Sockets Layer) or
+* Talk to your system administrator about installing a new version of wget with SSL support
 
-**Solution 4:** You can try to obtain a certificate on another system (for example, clicking on the link " MyProxy, and then copy the certificate from the other system onto the old system where you want to run, in the location ~/.esg/credentials.pem
+**Solution 4:** You can try to obtain a certificate on another system (for example, clicking on the link "MyProxy"), and then copy the certificate from the other system onto the old system where you want to run, in the location ~/.esg/credentials.pem
 
