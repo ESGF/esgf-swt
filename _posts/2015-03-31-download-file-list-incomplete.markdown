@@ -8,7 +8,7 @@ author: Torsten Rathmann         #<-- Replace with the name
 
 Downloads with ESGF wget scripts are usually limited to 1000 files per run. Therefore the download file list is truncated if the number of files exceeds 1000. Two ways are possible to overcome this issue:
 
-**1. Select the variables you need with "Filter over text"** 
+**Solution 1: Select the variables you need with "Filter over text"** 
 
 Unless you need all variables, you should filter them. Unfortunately simple selection via the Search Categories "Variable", "Variable Long Name" and "CF Standard Name" only affects the dataset list. A selection of files inside a dataset can not be done in this way. Instead use "Filter over text". The following steps lead to a wget script for one variable only, in the example tas:
 
@@ -23,7 +23,7 @@ In case you need more than one variable, you may use the OR keyword in the text 
     variable:tas OR variable:tasmax OR variable:tasmin
 
 
-**2. Use URL-based script generation**
+**Solution 2: Use URL-based script generation**
 
 Sometimes the number of download files still exceeds 1000. Scripts for huge downloads can efficiently be created by using ESGF Search RESTful URLs. The example below shows the URL for creation of a wget script for several variables and all CMIP5 RCP Amon scenarios:
 
