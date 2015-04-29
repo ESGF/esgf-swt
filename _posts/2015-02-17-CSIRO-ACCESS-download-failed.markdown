@@ -6,7 +6,7 @@ date:   2015-04-29 20:20:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
 
-Original CSIRO-Mk3.6.0 and also ACCESS1.0 and ACCESS1.3 cannot be downloaded because of a malfunctioning data server. We apologize for the inconvenience. ANU is setting up a new server.
+Original CSIRO-Mk3.6.0 and also ACCESS1.0 and ACCESS1.3 data cannot be downloaded because of a malfunctioning data server. We apologize for the inconvenience. NCI is setting up a new server.
 
 In the meantime, please try downloading a replica from another node than esgnode2.nci.org.au.  You can see replicas in your search results list if you enable all three checkboxes "Search All Sites", "Show All Replicas" and "Show All Versions", the latter if you want to include the tape based node wdcc-esgf.dkrz.de, which behaves different from a normal ESGF data node and needs an additionally enabled "Show All Versions". Download of replicas is possible in the same way as for originals. 
 
