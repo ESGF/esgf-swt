@@ -24,7 +24,7 @@ There might be several reasons and solutions for this issue:
 
 6. Seldom metadata have not properly been overtaken from a data node. In this case circumvent portals and try finding data on the data nodes directly. With help of the usual ESGF Search, find out which model simulations have been stored on which data node. Go to the THREDDS catalog of that data node and use the download links there. Links to the THREDDS catalogs of the European data nodes can be found [here][IS-ENES data nodes].
 
-[Data Visibility API]: https://esg-dn1.nsc.liu.se:8843/api/datavisibility
+[Data Visibility API]: https://esg-dn1.nsc.liu.se/api/datavisibility
 [DKRZ portal]: http://esgf-data.dkrz.de/esgf-web-fe/
 [CMIP5 Standard Output]: http://cmip-pcmdi.llnl.gov/cmip5/docs/standard_output.pdf
 [IS-ENES data nodes]: https://verc.enes.org/data/is-enes-data-infrastructure/enes-data-nodes
