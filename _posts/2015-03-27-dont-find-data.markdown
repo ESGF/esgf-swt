@@ -20,7 +20,7 @@ There might be several reasons and solutions for this issue:
 
 5. Not all variables, times, altitude levels have been archived for all time frequencies and experiments. For example, CMIP5 RCP daily time series are only available for the years 2006-2100, 2181-2200, and 2281-2300. Which CMIP5 data have been required for which time frequency and experiment is tabulated in the [CMIP5 Standard Output document][CMIP5 Standard Output].
 
-6. Seldom metadata are not properly overtaken from a data node. In this case you may circumvent portals and try finding data on the data nodes directly. With help of the usual ESGF Search, you may find out which model simulations have been stored on which data node. Go to the THREDDS catalog of that data node and use the download links there. Links to the THREDDS catalogs of the European data nodes can be found [here][IS-ENES data nodes].
+6. Seldom metadata have not properly been overtaken from a data node. In this case circumvent portals and try finding data on the data nodes directly. With help of the usual ESGF Search, find out which model simulations have been stored on which data node. Go to the THREDDS catalog of that data node and use the download links there. Links to the THREDDS catalogs of the European data nodes can be found [here][IS-ENES data nodes].
 
 [Data Visibility API]: https://esg-dn1.nsc.liu.se:8843/api/datavisibility
 [DKRZ portal]: http://esgf-data.dkrz.de/esgf-web-fe/
