@@ -12,8 +12,10 @@ There might be several reasons and solutions for this issue:
 
 2. Use Firefox or Chrome. Enable JavaScript. Firefox should be used in a New Private Window (in the main menu of Firefox). In this way you can avoid cookie mismatch and disturbance by old cache content.
 
-3. ESGF is a worldwide Grid with more than 40 data nodes. Usually a few of them are not working properly. Many ESGF portal administrators exclude malfunctioning nodes or their datasets from being listed; otherwise these malfunctioning nodes may disturbe their portals. Disturbed portals may list only local datasets. As a user you may do the following:
+3. ESGF is a worldwide Grid with more than 40 data nodes. Usually a few of them are not working properly. Many ESGF portal administrators exclude malfunctioning nodes or their datasets from being listed; otherwise these malfunctioning nodes may disturbe their portals. Disturbed portals may only list local datasets. As a user you may do the following:
+
 * Try another portal. For the most important projects, the numbers of datasets "seen" by each portal are listed in the [ESGF Data Visibility API][Data Visibility API]. There, look for the part `indexes` since ESGF portals are *index nodes*. The list is refreshed once every four hours.
+
 * Enable the checkbox `Show All Replicas`. Many data are also available as replicas, especially most CMIP5 data. If you want to include the tape based node `wdcc-esgf.dkrz.de`, which behaves different from a normal ESGF data node, also enable `Show All Versions`.
 
 4. Look into the *errata* of the project whether the data you need are withdrawn. CMIP5 and CORDEX errata pages are listed in the [DKRZ portal][DKRZ portal] under the heading "Errata".
