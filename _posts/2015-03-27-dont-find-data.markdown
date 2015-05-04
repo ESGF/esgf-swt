@@ -2,7 +2,7 @@
 layout: post                     #<-- don't touch
 title:  "I don't find the expected data" #<-- keep the quotes " ... "
 categories: search, data, CMIP5, CORDEX #<-- No quotes, comma separated tags
-date:   2015-04-30 16:10:00      #<-- current date and time
+date:   2015-05-04 20:30:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
 
@@ -12,7 +12,7 @@ There might be several reasons and solutions for this issue:
 
 2. Use Firefox or Chrome. Enable JavaScript. Firefox should be used in a New Private Window (in the main menu of Firefox). In this way you can avoid cookie mismatch and disturbance by old cache content.
 
-3. ESGF is a worldwide Grid with more than 40 data nodes. Usually a few of them are not working properly. Many ESGF portal administrators exclude malfunctioning nodes or their datasets from being listed; otherwise these malfunctioning nodes may disturbe their portals. Disturbed portals may only list local datasets. As a user you may do the following:
+3. ESGF is a worldwide Grid with more than 40 data nodes. Usually a few of them are not working properly. Many ESGF portal administrators exclude malfunctioning nodes or their datasets from being listed; otherwise these malfunctioning nodes may disturb their portals. Disturbed portals may only list local datasets. As a user you may do the following:
 
   * Try another portal. For the most important projects, the numbers of datasets "seen" by each portal are listed in the [ESGF Data Visibility API][Data Visibility API]. There, look for the part `indexes` since ESGF portals are *index nodes*. The list is refreshed once every four hours.
 

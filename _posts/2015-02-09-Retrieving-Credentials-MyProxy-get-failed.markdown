@@ -2,7 +2,7 @@
 layout: post
 title:  "Retrieving Credentials MyProxy get failed"
 categories: download, wget
-date: 2015-04-24 20:30:00
+date: 2015-05-04 20:50:00
 author: Torsten Rathmann, Matthew Harris
 ---
 
@@ -25,7 +25,6 @@ Two solutions are possible in case of this Java issue:
      bash wget-################.sh -H
 
 Then authentication will be tried without certificates. This easy solution should work, if
-* You use Oracle Java 1.7+ or OpenJDK 1.7+
 * The ESGF portal you use for script generation runs version 1.8 of ESGF software (The version is shown in the brown rectangle at the bottom of the Home page)
 * The data you need are not from ESGF NCAR data node tds.ucar.edu (error message: "http request to OpenID Relying Party service failed.")
 
