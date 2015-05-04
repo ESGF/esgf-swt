@@ -1,8 +1,8 @@
 ---
 layout: post                     #<-- don't touch
 title:  "Cannot download FGOALS data" #<-- keep the quotes " ... "
-categories: support              #<-- No quotes, comma separated tags
-date:   2015-05-04 19:00:00      #<-- current date and time
+categories: download, wget, HTTP #<-- No quotes, comma separated tags
+date:   2015-05-04 20:15:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
 

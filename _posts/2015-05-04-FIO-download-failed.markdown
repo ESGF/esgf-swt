@@ -1,12 +1,12 @@
 ---
 layout: post                     #<-- don't touch
 title:  "Cannot download FIO data" #<-- keep the quotes " ... "
-categories: support              #<-- No quotes, comma separated tags
-date:   2015-05-04 19:25:00      #<-- current date and time
+categories: download, wget, HTTP #<-- No quotes, comma separated tags
+date:   2015-05-04 20:10:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
 
-ESGF FIO data node cmip5.fio.org.cn is not properly working. Please try downloading a replica.
+FIO ESGF data node cmip5.fio.org.cn is not properly working. Please try downloading a replica.
 
 You can see replicas in your search results list if you enable all three checkboxes "Search All Sites", "Show All Replicas" and "Show All Versions", the latter if you want to include the tape based node wdcc-esgf.dkrz.de, which behaves different from a normal ESGF data node and needs an additionally enabled "Show All Versions".
 
