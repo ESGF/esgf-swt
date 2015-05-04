@@ -2,7 +2,7 @@
 layout: post
 title:  "Received fatal alert: handshake_failure"
 categories: download, wget
-date: 2015-04-24 19:50:00
+date: 2015-05-04 21:00:00
 author: Torsten Rathmann
 ---
 
@@ -23,7 +23,6 @@ Then another cryptographic protocol will be used for communication: TLS (Transpo
      bash wget-################.sh -H
 
 Then authentication will be tried without certificates. This easy solution should work, if
-* You use Oracle Java 1.7+ or OpenJDK 1.7+
 * The ESGF portal you use for script generation runs version 1.8 of ESGF software (The version is shown in the brown rectangle at the bottom of the Home page)
 * The data you need are not from NCAR data node tds.ucar.edu (error message: "http request to OpenID Relying Party service failed.")
 
