@@ -1,0 +1,24 @@
+---
+layout: page
+permalink: /wget/
+---
+
+<div class="home">
+
+  <h1 class="page-heading">WGET Questions</h1>
+
+  <ul class="post-list">
+    <hr>
+    {% for post in site.posts %}
+      {% if post.categories contains 'wget' %}
+      <li>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <p> {{ post.content }} </p>
+    <hr>
+    </li>
+  {% endif %}
+  {% endfor %}
+  </ul>
+
+
+</div>
