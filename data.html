@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink: /openid/
+permalink: /data/
 ---
-<h1 class="page-heading">openid Questions</h1>
+<h1 class="page-heading">data Questions</h1>
 <hr>
 <div class="list-groups">
   {% for post in site.posts %}
-    {% if post.categories contains 'openid' %}  
+    {% if post.categories contains 'data' %}  
     <div class="list-group-item">
     <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
     <p>{{ post.content }}</p>
@@ -14,4 +14,3 @@ permalink: /openid/
 {% endif %}
 {% endfor %}
 </div>
-
