@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Connection time out or Connection refused when retrieving certificate"
-categories: download, wget
+categories: wget
 date: 2015-04-28 20:50:00
 author: Matthew Harris, Torsten Rathmann
 ---

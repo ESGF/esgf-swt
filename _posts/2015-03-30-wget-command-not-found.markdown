@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "wget: command not found" #<-- keep the quotes " ... "
-categories: download, wget       #<-- No quotes, comma separated tags
+categories: wget                 #<-- No quotes, comma separated tags
 date:   2015-04-29 19:10:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

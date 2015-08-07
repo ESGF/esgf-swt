@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "getcert.jar cannot be retrieved"
-categories: download wget
+categories: wget
 date: 2015-06-09 15:20:00
 author: Torsten Rathmann, Matthew Harris
 ---

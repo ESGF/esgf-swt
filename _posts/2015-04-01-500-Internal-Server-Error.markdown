@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "500 Internal Server Error"
-categories: login, download, wget
+categories: general
 date: 2015-04-24 21:00:00
 author: Matthew Harris, Torsten Rathmann
 ---

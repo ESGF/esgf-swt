@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MyProxy bootstrapTrust failed"
-categories: download, wget
+categories: wget
 date: 2015-06-09 16:35:00
 author: Torsten Rathmann
 ---

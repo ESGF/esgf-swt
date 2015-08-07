@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "Where can I get data on media?" #<-- keep the quotes " ... "
-categories: data, CMIP5          #<-- No quotes, comma separated tags
+categories: general              #<-- No quotes, comma separated tags
 date:   2015-03-24 17:40:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

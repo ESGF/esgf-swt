@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "Cannot download FIO data" #<-- keep the quotes " ... "
-categories: download, wget, HTTP #<-- No quotes, comma separated tags
+categories: download             #<-- No quotes, comma separated tags
 date:   2015-05-04 20:10:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

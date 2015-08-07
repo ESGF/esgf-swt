@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Error 401 on MacOS 10.7"
-categories: download, wget
+categories: wget
 date: 2015-04-28 20:25:00
 author: Matthew Harris, Torsten Rathmann
 ---

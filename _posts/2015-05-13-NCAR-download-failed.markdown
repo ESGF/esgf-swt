@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "Cannot download NCAR data, e.g. CCSM and CESM" #<-- keep the quotes " ... "
-categories: download, wget, HTTP #<-- No quotes, comma separated tags
+categories: download             #<-- No quotes, comma separated tags
 date:   2015-05-13 14:45:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

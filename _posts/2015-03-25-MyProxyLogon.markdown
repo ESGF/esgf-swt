@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "I have a problem running MyProxyLogon application" #<-- keep the quotes " ... "
-categories: download, wget, login #<-- No quotes, comma separated tags
+categories: wget                 #<-- No quotes, comma separated tags
 date:   2015-03-25 16:00:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

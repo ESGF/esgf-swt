@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Received fatal alert: handshake_failure"
-categories: download, wget
+categories: wget
 date: 2015-06-09 15:55:00
 author: Torsten Rathmann
 ---

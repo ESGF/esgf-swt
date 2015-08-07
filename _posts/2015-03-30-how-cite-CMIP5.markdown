@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "How may I cite ESGF and CMIP5 data in my paper?" #<-- keep the quotes " ... "
-categories: data, CMIP5          #<-- No quotes, comma separated tags
+categories: general              #<-- No quotes, comma separated tags
 date:   2015-03-30 12:30:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

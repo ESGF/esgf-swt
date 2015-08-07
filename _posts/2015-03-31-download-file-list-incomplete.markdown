@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "The download file list in wget script is incomplete" #<-- keep the quotes " ... "
-categories: download wget       #<-- No quotes, comma separated tags
+categories: wget                 #<-- No quotes, comma separated tags
 date:   2015-04-29 18:40:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
