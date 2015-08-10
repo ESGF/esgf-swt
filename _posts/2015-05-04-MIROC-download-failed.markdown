@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "Cannot download MIROC and MRI data with wget script" #<-- keep the quotes " ... "
-categories: download, wget       #<-- No quotes, comma separated tags
+categories: wget                 #<-- No quotes, comma separated tags
 date:   2015-06-09 11:20:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

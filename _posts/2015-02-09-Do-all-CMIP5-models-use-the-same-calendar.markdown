@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Do all CMIP5 models use the same calendar?"
-categories: data CMIP5 
+categories: data
 date: 2015-04-01 18:30:00
 author: Matthew Harris, Torsten Rathmann
 ---

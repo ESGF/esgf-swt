@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ERROR 403: Forbidden"
-categories: download, wget, CMIP5, CORDEX
+categories: wget
 date: 2015-04-28 20:00:00
 author: Torsten Rathmann, Matthew Harris
 ---

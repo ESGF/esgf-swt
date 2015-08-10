@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "md5 fails or file gets downloaded over and over again"
-categories: download, wget
+categories: wget
 date: 2015-06-09 14:45:00
 author: Torsten Rathmann, Matthew Harris
 ---

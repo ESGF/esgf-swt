@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "I don't find the expected data" #<-- keep the quotes " ... "
-categories: search, data, CMIP5, CORDEX #<-- No quotes, comma separated tags
+categories: search               #<-- No quotes, comma separated tags
 date:   2015-05-04 20:30:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

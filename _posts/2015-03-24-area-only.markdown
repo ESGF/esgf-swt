@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "How can I get data for a specified area only?" #<-- keep the quotes " ... "
-categories: download, OPENDAP    #<-- No quotes, comma separated tags
+categories: download             #<-- No quotes, comma separated tags
 date:   2015-03-24 20:40:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

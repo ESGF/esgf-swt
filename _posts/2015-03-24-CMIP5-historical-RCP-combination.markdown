@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "May CMIP5 historical and RCP data be combined to one long time series?" #<-- keep the quotes " ... "
-categories: data, CMIP5          #<-- No quotes, comma separated tags
+categories: data                 #<-- No quotes, comma separated tags
 date:   2015-03-24 17:50:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

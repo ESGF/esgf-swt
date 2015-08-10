@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "Where can I find CMIP5 scenarios?" #<-- keep the quotes " ... "
-categories: data, CMIP5          #<-- No quotes, comma separated tags
+categories: data                 #<-- No quotes, comma separated tags
 date:   2015-03-24 18:40:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

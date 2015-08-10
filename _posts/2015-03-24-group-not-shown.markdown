@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "My group memberships are not shown" #<-- keep the quotes " ... "
-categories: data, CMIP5          #<-- No quotes, comma separated tags
+categories: login                #<-- No quotes, comma separated tags
 date:   2015-03-25 13:40:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

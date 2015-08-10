@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Retrieving Credentials MyProxy get failed"
-categories: download, wget
+categories: wget
 date: 2015-06-09 16:05:00
 author: Torsten Rathmann, Matthew Harris
 ---

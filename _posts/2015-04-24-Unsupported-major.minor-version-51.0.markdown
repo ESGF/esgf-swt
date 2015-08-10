@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Unsupported major.minor version 51.0"
-categories: download, wget
+categories: wget
 date: 2015-06-09 16:00:00
 author: Torsten Rathmann
 ---

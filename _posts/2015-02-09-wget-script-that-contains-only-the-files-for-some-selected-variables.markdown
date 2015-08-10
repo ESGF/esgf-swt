@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How can I create a wget script that contains only the files for some selected variables?"
-categories: download, wget
+categories: wget
 date: 2015-04-01 20:30:00
 author: Matthew Harris, Torsten Rathmann
 ---

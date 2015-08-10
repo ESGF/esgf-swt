@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What browsers do ESGF portals support?"
-categories: search, download
+categories: general
 date:   2015-04-01 19:45:00
 author: Matthew Harris, Torsten Rathmann
 ---
