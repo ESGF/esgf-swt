@@ -2,25 +2,29 @@
 layout: post                     #<-- don't touch
 title:  "The download file list in wget script is incomplete" #<-- keep the quotes " ... "
 categories: wget                 #<-- No quotes, comma separated tags
-date:   2015-04-29 18:40:00      #<-- current date and time
+date:   2015-10-29 16:21:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
 
 Downloads with ESGF wget scripts are usually limited to 1000 files per run. Therefore the download file list is truncated if the number of files exceeds 1000. Two ways are possible to overcome this issue:
 
-**Solution 1: Select the variables you need with "Filter over text"** 
+**Solution 1: Select the variables you need with help of text field** 
 
-Unless you need all variables, you should filter them. Unfortunately simple selection via the Search Categories "Variable", "Variable Long Name" and "CF Standard Name" only affects the dataset list. A selection of files inside a dataset can not be done in this way. Instead use "Filter over text". The following steps lead to a wget script for one variable only, in the example tas:
+Unless you need all variables, you should filter them. Unfortunately simple selection via the Search Categories "Variable", "Variable Long Name" and "CF Standard Name" only affects the dataset list. A selection of files inside a dataset can not be done in this way. Instead use the text field of the data cart. The following steps lead to a wget script for one variable only, in the example tas:
 
-* Type-in `variable:tas` in the text field left to the light blue "Search" button
-* Press the light blue "Search" button. A `query:variable:tas` should appear in the "Current Selections"
-* In case this has not be done before, add the data sets you are interested in to the Data Cart
-* Under tab "Data Cart" enable the radio button "Filter over text"
-* Click on "WGET", download the wget script and run it
+* Login
+* Add the datasets you need to your data cart
+* Type-in the names of the variables you need in the text field right of "When 'Show Files' is clicked, or when using WGET or Globus, you may use an optional string to sub-select the filenames"
+* Press the "Apply" button
+* Create your WGET script, download and run it
 
-In case you need more than one variable, you may use the OR keyword in the text field in the first step, for example:
+In case you need more than one variable, you may use the OR keyword in the text field, for example:
 
-    variable:tas OR variable:tasmax OR variable:tasmin
+    variable:tas OR variable:tasmin OR variable:tasmax
+
+or simply search the variable names with a blank as delimiter:
+
+    tas tasmin tasmax
 
 
 **Solution 2: Use URL-based script generation**
