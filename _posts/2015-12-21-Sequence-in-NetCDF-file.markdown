@@ -20,10 +20,10 @@ I(tas) = I(time) X I(lat) X I(lon)
 
 The definition of the data variable in the file header contains manner and sequence of the coordinate variables.
 
-For the example tas and in easy English: The first value in the tas array is the value for the first time, first lat and first lon. The second value is that for first time, first lat and second lon. Then the tas values for the other longitudes follow. If the number of longitudes is only 2, now the value for first time, second lat and first lon follows, as shown in the table below.
+For the example tas and in easy English: The first value in the tas array is the value for the first time, first lat and first lon. The second value is that for first time, first lat and second lon. Then the tas values for the other longitudes follow. If the number of longitudes is only 2, now the value for first time, second lat and first lon follows. If the number of latitudes is also 2, the first tas value for the second time appears in position 5.
 
- 1 1 1 | 1 1 2 | 1 2 1 | 1 2 2 | 2 1 1 | ...
-
-If the number of latitudes is also 2, the first tas value for the second time appears in position 5.
+```
+| 1 1 1 | 1 1 2 | 1 2 1 | 1 2 2 | 2 1 1 | ...
+```
 
 Technically spoken, the values are written to the array in a nested loop. The innermost loop is that for lon, the outermost for time and lat in the middle.
