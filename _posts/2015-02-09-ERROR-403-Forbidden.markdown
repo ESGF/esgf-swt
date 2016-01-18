@@ -2,7 +2,7 @@
 layout: post
 title:  "ERROR 403: Forbidden"
 categories: wget
-date: 2015-04-28 20:00:00
+date: 2015-01-18 21:05:00
 author: Torsten Rathmann, Matthew Harris
 ---
 
@@ -16,7 +16,7 @@ The error "403 Forbidden" may also be caused by a server issue. A typical behavi
 
 **Solution in case of a missing group membership:**
 
-Please perform an HTTP download of a single file from the web interface before attempting to run a wget script. This operation will guide you through the process of enrolling with the appropriate data access group. After registration, wget scripting should work for you.
+Please perform a download of a single file from the web interface following an HTTPServer link before attempting to run a Wget script. This operation will guide you through the process of enrolling with the appropriate data access group. After registration, Wget scripting should work for you.
 
 For download of CMIP5 data you need to be member of either *CMIP5 Research* (for non-commercial research and education only) or *CMIP5 Commercial*. Which data are available for unrestricted use and which may only be used for non-commercial research and education is listed in the CMIP5 document [Modeling Groups and their Terms of Use][CMIP5 Terms of Use]. 
 
