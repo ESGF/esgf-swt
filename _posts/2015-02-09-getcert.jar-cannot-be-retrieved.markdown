@@ -17,9 +17,9 @@ Example error message:
     MyProxy Password? Retrieving Credentials...
     Invalid or corrupt jarfile /Users/..../.esg/getcert.jar Certificate could not be retrieved
 
-**Solution 1:** Remove all contents of the directory ~/.esg and try running the wget script again
+**Solution 1:** Remove all contents of the directory ~/.esg and try running the Wget script again
 
-**Solution 2:** Run the wget script with the -H option.
+**Solution 2:** Run the Wget script with the -H option.
 
      bash wget-################.sh -H
 
@@ -30,8 +30,8 @@ Then authentication will be tried without certificates. This easy solution shoul
 
 **Solution 3:** The wget application installed on your system might not be compiled with SSL. You can check this by issuing "wget -help" and investigating wether or not there are some SSL options. If not
 
-* Try using the wget script with the -T option. Another cryptographic protocol will be used for communication then: TLS (Transport Layer Security) instead of SSL (Secure Sockets Layer) or
+* Try using the Wget script with the -T option. Another cryptographic protocol will be used for communication then: TLS (Transport Layer Security) instead of SSL (Secure Sockets Layer) or
 * Talk to your system administrator about installing a new version of wget with SSL support
 
-**Solution 4:** You can try to obtain certificates on another system. Run a short download with a wget script there or, if this is not possible, click on the link "MyProxy" and run the MyProxy application. Copy the certificates from the other system onto the old system where you want to run, in the location ~/.esg/credentials.pem then. Maybe it is easiest to copy the whole credentials directory .esg
+**Solution 4:** You can try to obtain certificates on another system. Run a short download with a Wget script there or, if this is not possible, click on the link "MyProxy" and run the MyProxy application. Copy the certificates from the other system onto the old system where you want to run, in the location ~/.esg/credentials.pem then. Maybe it is easiest to copy the whole credentials directory .esg
 
