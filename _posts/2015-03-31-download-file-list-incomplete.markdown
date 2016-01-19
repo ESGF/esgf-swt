@@ -2,7 +2,7 @@
 layout: post                     #<-- don't touch
 title:  "The download file list in wget script is incomplete" #<-- keep the quotes " ... "
 categories: wget                 #<-- No quotes, comma separated tags
-date:   2015-10-29 16:21:00      #<-- current date and time
+date:   2016-01-18 21:00:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
 
@@ -10,7 +10,7 @@ Downloads with ESGF wget scripts are usually limited to 1000 files per run. Ther
 
 **Solution 1: Select the variables you need with help of text field** 
 
-Unless you need all variables, you should filter them. Unfortunately simple selection via the Search Categories "Variable", "Variable Long Name" and "CF Standard Name" only affects the dataset list. A selection of files inside a dataset can not be done in this way. Instead use the text field of the data cart. The following steps lead to a wget script for one variable only, in the example tas:
+Unless you need all variables, you should filter them. Unfortunately simple selection via the Search Categories "Variable", "Variable Long Name" and "CF Standard Name" only affects the dataset list. A selection of files inside a dataset can not be done in this way. Instead use the text field of the data cart. The following steps lead to a Wget script only for the variables you want:
 
 * Login
 * Add the datasets you need to your data cart
@@ -18,11 +18,7 @@ Unless you need all variables, you should filter them. Unfortunately simple sele
 * Press the "Apply" button
 * Create your WGET script, download and run it
 
-In case you need more than one variable, you may use the OR keyword in the text field, for example:
-
-    variable:tas OR variable:tasmin OR variable:tasmax
-
-or simply search the variable names with a blank as delimiter:
+If you need more than one variable, type-in the variable names with a blank as delimiter, for example:
 
     tas tasmin tasmax
 
