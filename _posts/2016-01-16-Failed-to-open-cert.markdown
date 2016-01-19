@@ -8,7 +8,7 @@ author: Torsten Rathmann
 
 Example error message:
 
-     ERROR: Failed to open cert /Users/jhe/.esg/certificates/0119347c.signing_policy: (0).
+     ERROR: Failed to open cert /Users/someone/.esg/certificates/0119347c.signing_policy: (0).
 
 The error message indicates that something is wrong with your local certificate directory. 
 
