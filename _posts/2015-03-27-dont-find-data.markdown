@@ -18,7 +18,7 @@ There might be several reasons and solutions for this issue:
 
   * Enable the checkbox `Show All Replicas`. Many data are also available as replicas, especially most CMIP5 data. 
 
-**Solution 5:** Look into the *errata* of the project whether the data you need are withdrawn. CMIP5 and CORDEX errata pages are listed in the [ENES portal][ENES portal] under the heading "Errata".
+**Solution 5:** Look into the *errata* of the project whether the data you need are withdrawn. CMIP5 and CORDEX errata pages are listed in the [ENES portal][ENES portal].
 
 **Solution 6:** Not all variables, times, altitude levels have been archived for all time frequencies and experiments. For example, CMIP5 RCP daily time series are only available for the years 2006-2100, 2181-2200, and 2281-2300. Which CMIP5 data have been required for which time frequency and experiment is tabulated in the [CMIP5 Standard Output document][CMIP5 Standard Output].
 
