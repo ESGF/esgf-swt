@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "Where can I find AR5 data?" #<-- keep the quotes " ... "
-categories: data                 #<-- No quotes, comma separated tags
+categories: search               #<-- No quotes, comma separated tags
 date:   2015-03-24 18:20:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
