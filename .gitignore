@@ -6,7 +6,7 @@ env/
 static/
 esgf_issues/local_settings.py
 /local_settings.py/
-
+nodestatus.md.bak
 
 _site
 .sass-cache

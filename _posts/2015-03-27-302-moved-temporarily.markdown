@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
-title:  "302 Moved Temporarily" #<-- keep the quotes " ... "
-categories: download wget        #<-- No quotes, comma separated tags
+title:  "302 Moved Temporarily"  #<-- keep the quotes " ... "
+categories: wget                 #<-- No quotes, comma separated tags
 date:   2015-04-29 21:10:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

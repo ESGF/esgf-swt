@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Does ESGF support OPeNDAP downloads?"
-categories: download, OPENDAP
+categories: download
 date: 2015-04-01 18:35:00
 author: Matthew Harris, Torsten Rathmann
 ---

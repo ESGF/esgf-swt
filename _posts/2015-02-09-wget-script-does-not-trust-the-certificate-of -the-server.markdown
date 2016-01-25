@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The wget script does not trust the certificate of the server"
-categories: download, wget
+categories: wget
 date: 2015-04-01 21:20:00
 author: Matthew Harris, Torsten Rathmann
 ---

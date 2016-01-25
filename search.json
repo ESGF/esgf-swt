@@ -6,7 +6,7 @@
         "title" : "{{ post.title | escape }}", 
         "categories" : "{{ post.categories }}", 
         "url" : "{{ post.url }}", 
-        "date" : "{{ post.date }}" 
+        "date" : "{{ post.date }}"
       }{% if forloop.last %}{% else %},{% endif %}
     {% endfor %}
   ]

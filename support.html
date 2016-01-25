@@ -1,0 +1,16 @@
+---
+layout: page
+permalink: /support/
+---
+<h1 class="page-heading">support Questions</h1>
+<hr>
+<div class="list-groups">
+  {% for post in site.posts %}
+    {% if post.categories contains 'support' %}  
+    <div class="list-group-item">
+    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    <p>{{ post.content }}</p>
+  </div>
+{% endif %}
+{% endfor %}
+</div>

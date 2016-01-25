@@ -1,0 +1,17 @@
+---
+layout: page
+permalink: /search/
+---
+<h1 class="page-heading">Search Questions</h1>
+<p>Questions about data search in ESGF. Each question is sorted into exactly one topic. See also <b>general</b> since questions of general interest and questions matching several topics are under topic general.</p>
+<hr>
+<div class="list-groups">
+  {% for post in site.posts %}
+    {% if post.categories contains 'search' %}  
+    <div class="list-group-item">
+    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    <p>{{ post.content }}</p>
+  </div>
+{% endif %}
+{% endfor %}
+</div>

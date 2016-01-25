@@ -1,0 +1,17 @@
+---
+layout: page
+permalink: /general/
+---
+<h1 class="page-heading">General ESGF Questions</h1>
+<hr>
+<p>Each question is sorted into exactly one topic. Questions of general interest and questions matching several topics are here under topic general.</p>
+<div class="list-groups">
+  {% for post in site.posts %}
+    {% if post.categories contains 'general' %}  
+    <div class="list-group-item">
+    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    <p>{{ post.content }}</p>
+  </div>
+{% endif %}
+{% endfor %}
+</div>

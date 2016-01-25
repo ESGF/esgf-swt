@@ -5,29 +5,25 @@ layout: default
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>  
 <script type="text/javascript" src="{{ site.baseurl }}/js/simpleJekyllSearch.js"></script>
 <div class="home">
-
-  <p class="navbar-text navbar-right">Topics: <a href="wget" class="navbar-link">wget</a> | <a href="openid" class="navbar-link">openid</a>  </p>
-
-  <div id="search-demo-container">
-    <input type="text" id="search-input" placeholder="search..." class="form-control">
-    <ul id="results-container"></ul>
-  </div>
-
-
   <h1 class="page-heading">Questions</h1>
+  <div class="well well-lg">
+    <div id="form-group">
+      <input type="text" id="search-input" placeholder="Search..." class="form-control">
+      <ul id="results-container"></ul>
+    </div>
+  </div>
+  <div class="alert alert-warning" role="alert">
+    Search box only searches the questions and tags, not the anwser text. To do a full body search please use your browser search <kbd><kbd>ctrl</kbd> + <kbd>F</kbd></kbd> or <kbd><kbd>command</kbd> + <kbd>F</kbd></kbd>  </div>
 
-  <ul class="post-list">
-    <hr>
+  <hr>
+  <div class="list-groups">
     {% for post in site.posts %}
-      <li>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    <p> {{ post.content }} </p>
-    <hr>
-    </li>
-  {% endfor %}
-  </ul>
-
-</div>
+      <div class="list-group-item">
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p>{{ post.content }}</p>
+      </div>  
+    {% endfor %}
+  </div>
 
 <script type="text/javascript">
   SimpleJekyllSearch.init({

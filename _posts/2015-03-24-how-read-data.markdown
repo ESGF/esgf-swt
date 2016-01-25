@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "How can I read or process downloaded data?" #<-- keep the quotes " ... "
-categories: data, CMIP5          #<-- No quotes, comma separated tags
+categories: data                 #<-- No quotes, comma separated tags
 date:   2015-04-29 21:00:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---

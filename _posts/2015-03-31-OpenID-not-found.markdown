@@ -1,7 +1,7 @@
 ---
 layout: post                     #<-- don't touch
 title:  "wget script stopped after inquiring the OpenID" #<-- keep the quotes " ... "
-categories: login, download, wget #<-- No quotes, comma separated tags
+categories: wget                 #<-- No quotes, comma separated tags
 date:   2015-03-31 15:30:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
