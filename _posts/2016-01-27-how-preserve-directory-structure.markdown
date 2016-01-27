@@ -2,7 +2,7 @@
 layout: post
 title:  "How can I preserve the directory structure?"
 categories: wget
-date: 2016-01-21 15:30:00
+date: 2016-01-27 15:30:00
 author: Torsten Rathmann, Katharina Berger
 ---
 
@@ -15,6 +15,12 @@ The other commands, delimited by `&`, are search categories.
 * Equal search categories will be processed in the sense of logical OR. Since the URL contains two "variable" statements, one for near surface temperature tas and one for precipitation pr, the search will provide a file list for these two variables.
 * Different search categories will be processed in the sense of AND
 * Blanks in the category name are to be replaced by `_`
+
+For preservation of the CORDEX data structure you may use
+
+    http://esgf-data.dkrz.de/esg-search/wget?download_structure=project,product,domain,institute,driving_model,experiment,ensemble,rcm_model,rcm_version,time_frequency,variable&project=CORDEX 
+
+followed by the search categories you need.
 
 A comprehensive description of ESGF Search RESTful URLs can be found [here][ESGF Search RESTful API].
 
