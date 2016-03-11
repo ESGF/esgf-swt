@@ -26,7 +26,7 @@ You can also generate a wget script using this search service:
 
 **Solution 3: Search ESGF data nodes directly**
 
-ESGF data nodes have a catalog, the THREDDS catalog. You can visit the corresponding web pages, e.g. http://pcmdi9.llnl.gov/thredds/, and perform even data downloads. Links to the THREDDS catalogs of the European data nodes can be found [here][IS-ENES data nodes].
+ESGF data nodes have a catalog, the THREDDS catalog. You can visit the corresponding web pages, e.g. http://esgf1.dkrz.de/, and perform even data downloads. Links to the THREDDS catalogs of the European data nodes can be found [here][IS-ENES data nodes].
 
 [ESGF_Search_REST_API]:https://github.com/ESGF/esgf.github.io/wiki/ESGF_Search_REST_API
 [IS-ENES data nodes]: https://verc.enes.org/data/is-enes-data-infrastructure/enes-data-nodes
