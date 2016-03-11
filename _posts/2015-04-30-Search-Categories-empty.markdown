@@ -1,12 +1,12 @@
 ---
 layout: post                     #<-- don't touch
-title:  "The Search Categories are empty" #<-- keep the quotes " ... "
+title:  "I don't get search results regardless what I do" #<-- keep the quotes " ... "
 categories: search               #<-- No quotes, comma separated tags
 date:   2015-04-30 21:30:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
 
-Outside China this issue is hardly known. ESGF Search via portal uses Google routines. The Chinese government has these routines blocked, thus "search" toolbar in all index nodes can not work normally. Especially the Search Categories are not shown and search is not possible in this way.
+Outside China this issue is hardly known. ESGF Search via portal uses Google routines. The Chinese government has these routines blocked, thus "search" toolbar in all ESGF portals (index nodes) can not work normally. 
 
 **Solution 1: Circumvent the Big Firewall**
 
