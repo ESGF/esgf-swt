@@ -8,7 +8,7 @@ author: Torsten Rathmann         #<-- Replace with the name
 
 If you want to specify an area and download data for that area only, you may look for an OPENDAP download link. Data downloaded via OPENDAP are in ASCII CSV (Comma Separated Values, readable text) oder dodc, a binary OPENDAP data format. OPENDAP links are available for all data files now.
 
-In ESGF Search, add the data you are interested into your Cart and click on "Show Files" and then, if available, on "OPENDAP". In the "OPeNDAP Dataset Access Form" fill in the index ranges you want and get the array. Details for ASCII CSV:
+In ESGF Search, add the data you are interested into your Cart and click on "Show Files" and then on "OPENDAP". In the "OPeNDAP Dataset Access Form" fill in the index ranges you want and get the array. Details for ASCII CSV:
 
 * The "OPeNDAP Dataset Access Form" consists of many coordinate variable blocks (time, time_bnds, lat, lat_bnds, lon, lon_bnds, height) followed by the data variable you are interested in, e.g. near surface temperature tas. First enable all the coordinate variables to find out which indices you need (check the checkboxes)
 * Click on the "GetASCII" button
