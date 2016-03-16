@@ -8,10 +8,10 @@ author: Torsten Rathmann         #<-- Replace with the name
 
 For fetching files, ESGF Wget scripts need the command line tool Wget. Please install it. Under Linux, Wget is usually in one of the standard packages. Nevertheless, Wget is not standard under Mac OS X. The easiest way to install Wget under Mac OS X is utilization of Homebrew:
 
-brew install wget
+     brew install wget
 
 Homebrew itself can be installed with the command
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 
