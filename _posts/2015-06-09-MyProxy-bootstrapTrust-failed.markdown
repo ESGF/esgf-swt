@@ -2,7 +2,7 @@
 layout: post
 title:  "MyProxy bootstrapTrust failed"
 categories: wget
-date: 2016-03-15 10:50:00
+date: 2016-03-16 10:20:00
 author: Torsten Rathmann
 ---
 
@@ -17,8 +17,7 @@ Three solutions are possible in case of this Java issue:
 
      bash wget-################.sh -H
 
-Then authentication will be tried without certificates. This easy solution should work if
-you use Linux.
+Then authentication will be tried without certificates.
 
 **Solution 2:** Run the wget script with the -T option.
 

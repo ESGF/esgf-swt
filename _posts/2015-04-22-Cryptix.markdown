@@ -16,7 +16,7 @@ Two solutions are possible in case of this Java issue:
 
      bash wget-################.sh -H
 
-Authentication will be tried without certificates then. This easy solution should work if you use Linux.
+Authentication will be tried without certificates then.
 
 **Solution 2:** Install Oracle Java 1.7 or newer and add it to your environment (define JAVA_HOME etc.). The wget script can usually be used without options then.
 

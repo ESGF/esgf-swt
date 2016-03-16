@@ -2,7 +2,7 @@
 layout: post
 title:  "Retrieving Credentials MyProxy get failed"
 categories: wget
-date: 2016-03-15 10:55:00
+date: 2016-03-16 10:25:00
 author: Torsten Rathmann, Matthew Harris
 ---
 
@@ -24,7 +24,7 @@ Two solutions are possible in case of this Java issue:
 
      bash wget-################.sh -H
 
-Then authentication will be tried without certificates. This easy solution should work if you use Linux.
+Authentication will be tried without certificates then.
 
 **Solution 2:** Install Oracle Java 1.7 or newer and add it to your environment (define JAVA_HOME etc.). The wget script can usually be used without options then.
 

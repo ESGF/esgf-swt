@@ -2,7 +2,7 @@
 layout: post
 title:  "Received fatal alert: handshake_failure"
 categories: wget
-date: 2016-03-15 11:01:00
+date: 2016-03-15 10:31:00
 author: Torsten Rathmann
 ---
 
@@ -22,7 +22,7 @@ Then another cryptographic protocol will be used for communication: TLS (Transpo
 
      bash wget-################.sh -H
 
-Then authentication will be tried without certificates. This easy solution should work if you use Linux.
+Authentication will be tried without certificates then.
 
 **Solution 3:** Install Oracle Java 1.7 or newer and add it to your environment (define JAVA_HOME etc.). The wget script can usually be used without options then.
 
