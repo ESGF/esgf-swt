@@ -1,12 +1,12 @@
 ---
 layout: post                     #<-- don't touch
-title:  "The Search Categories are empty" #<-- keep the quotes " ... "
+title:  "I don't get search results regardless what I do" #<-- keep the quotes " ... "
 categories: search               #<-- No quotes, comma separated tags
 date:   2015-04-30 21:30:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
 
-Outside China this issue is hardly known. ESGF Search via portal uses Google routines. The Chinese government has these routines blocked, thus "search" toolbar in all index nodes can not work normally. Especially the Search Categories are not shown and search is not possible in this way.
+Outside China this issue is hardly known. ESGF Search via portal uses Google routines. The Chinese government has these routines blocked, thus "search" toolbar in all ESGF portals (index nodes) can not work normally. 
 
 **Solution 1: Circumvent the Big Firewall**
 
@@ -26,7 +26,7 @@ You can also generate a wget script using this search service:
 
 **Solution 3: Search ESGF data nodes directly**
 
-ESGF data nodes have a catalog, the THREDDS catalog. You can visit the corresponding web pages, e.g. http://pcmdi9.llnl.gov/thredds/, and perform even data downloads. Links to the THREDDS catalogs of the European data nodes can be found [here][IS-ENES data nodes].
+ESGF data nodes have a catalog, the THREDDS catalog. You can visit the corresponding web pages, e.g. http://esgf1.dkrz.de/, and perform even data downloads. Links to the THREDDS catalogs of the European data nodes can be found [here][IS-ENES data nodes].
 
 [ESGF_Search_REST_API]:https://github.com/ESGF/esgf.github.io/wiki/ESGF_Search_REST_API
 [IS-ENES data nodes]: https://verc.enes.org/data/is-enes-data-infrastructure/enes-data-nodes

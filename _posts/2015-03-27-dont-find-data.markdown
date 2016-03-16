@@ -10,7 +10,7 @@ There might be several reasons and solutions for this issue:
 
 **Solution 1:** Make sure the checkbox `Search All Sites` is checked. Otherwise only local data are listed in the Results.
 
-**Solution 2:** Use Firefox or Chrome. Enable JavaScript. Firefox should be used in a New Private Window (in the main menu of Firefox). In this way you can avoid cookie mismatch and disturbance by old cache content.
+**Solution 2:** Use Firefox, Chrome or Internet Explorer. Enable JavaScript. Firefox should be used in a New Private Window (in the main menu of Firefox). In this way you can avoid cookie mismatch and disturbance by old cache content.
 
 **Solution 3/4:** ESGF is a worldwide Grid with more than 40 data nodes. Usually a few of them are not working properly. Many ESGF portal administrators exclude malfunctioning nodes or their datasets from being listed; otherwise these malfunctioning nodes may disturb their portals. Disturbed portals may only list local datasets. As a user you may do the following:
 
@@ -18,7 +18,7 @@ There might be several reasons and solutions for this issue:
 
   * Enable the checkbox `Show All Replicas`. Many data are also available as replicas, especially most CMIP5 data. 
 
-**Solution 5:** Look into the *errata* of the project whether the data you need are withdrawn. CMIP5 and CORDEX errata pages are listed in the [ENES portal][ENES portal].
+**Solution 5:** Look into the *errata* of the project whether the data you need are withdrawn. Links to CMIP5 and CORDEX errata pages are in the [ENES portal][ENES portal].
 
 **Solution 6:** Not all variables, times, altitude levels have been archived for all time frequencies and experiments. For example, CMIP5 RCP daily time series are only available for the years 2006-2100, 2181-2200, and 2281-2300. Which CMIP5 data have been required for which time frequency and experiment is tabulated in the [CMIP5 Standard Output document][CMIP5 Standard Output].
 

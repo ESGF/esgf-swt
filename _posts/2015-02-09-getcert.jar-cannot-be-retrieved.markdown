@@ -2,7 +2,7 @@
 layout: post
 title:  "getcert.jar cannot be retrieved"
 categories: wget
-date: 2015-06-09 15:20:00
+date: 2016-03-16 10:15:00
 author: Torsten Rathmann, Matthew Harris
 ---
 
@@ -23,15 +23,12 @@ Example error message:
 
      bash wget-################.sh -H
 
-Then authentication will be tried without certificates. This easy solution should work, if
-
-* The ESGF portal you use for script generation runs version 1.8 of ESGF software (The version is shown in the brown rectangle at the bottom of the Home page)
-* The data you need are not from NCAR data node tds.ucar.edu (error message: "http request to OpenID Relying Party service failed.")
+Then authentication will be tried without certificates.
 
 **Solution 3:** The wget application installed on your system might not be compiled with SSL. You can check this by issuing "wget -help" and investigating wether or not there are some SSL options. If not
 
 * Try using the Wget script with the -T option. Another cryptographic protocol will be used for communication then: TLS (Transport Layer Security) instead of SSL (Secure Sockets Layer) or
 * Talk to your system administrator about installing a new version of wget with SSL support
 
-**Solution 4:** You can try to obtain certificates on another system. Run a short download with a Wget script there or, if this is not possible, click on the link "MyProxy" and run the MyProxy application. Copy the certificates from the other system onto the old system where you want to run, in the location ~/.esg/credentials.pem then. Maybe it is easiest to copy the whole credentials directory .esg
+**Solution 4:** You can try to obtain certificates on another system. Run a short download with a Wget script there or, if this is not possible, run the MyProxyLogon application. Copy the certificates from the other system onto the old system where you want to run, in the location ~/.esg/credentials.pem then. Maybe it is easiest to copy the whole credentials directory .esg
 
