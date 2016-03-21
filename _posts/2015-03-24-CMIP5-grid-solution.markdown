@@ -15,6 +15,9 @@ The following table contains the models for which CMIP5 simulation data can be d
 |BCC-CSM1.1     |2.7906  |2.8125   |
 |BCC-CSM1.1(m)  |2.7906  |2.8125   |
 |BNU-ESM        |2.7906  |2.8125   |
+|CanAM4         |2.7906  |2.8125   |
+|CanCM4         |2.7906  |2.8125   |
+|CanESM2        |2.7906  |2.8125   |
 |CCSM4          |0.9424  |1.25     |
 |CESM1(BGC)     |0.9424  |1.25     |
 |CESM1(CAM5)    |0.9424  |1.25     |
@@ -28,9 +31,6 @@ The following table contains the models for which CMIP5 simulation data can be d
 |CNRM-CM5-2     |1.4008  |1.40625  |
 |CSIRO-Mk3.6.0  |1.8653  |1.875    |
 |CSIRO-Mk3L-1-2 |3.1857  |5.625    |
-|CanAM4         |2.7906  |2.8125   |
-|CanCM4         |2.7906  |2.8125   |
-|CanESM2        |2.7906  |2.8125   |
 |EC-EARTH       |1.1215  |1.125    |
 |FGOALS-g2      |2.7906  |2.8125   |
 |FGOALS-gl      |4.1026  |5        |
