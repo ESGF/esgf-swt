@@ -54,7 +54,8 @@ No, see table below. The values in the table have been taken from the calendar a
 |IPSL-CM5A-MR   |365_day             |all                                                       |
 |IPSL-CM5B-LR   |365_day             |all but aquaControl: 360_day                              |
 |MIROC-ESM      |proleptic_gregorian |1pctCO2, abrupt4xCO2, past1000                            |
-|MIROC-ESM      |gregorian           |esmControl, esmFixClim2, esmHistorical, lgm, midHolocene, piControl, rcp26, rcp45, rcp60, rcp85, esmrcp85, historical, historicalGHG, historicalNat|
+|MIROC-ESM      |gregorian           |esmControl, esmFixClim2, esmHistorical, lgm, midHolocene, piControl, rcp26, rcp45,|
+|               |                    |rcp60, rcp85, esmrcp85, historical, historicalGHG, historicalNat|
 |MIROC-ESM-CHEM |gregorian           |all                                                       |
 |MIROC4h        |gregorian           |all but piControl: 365_day                                |
 |MIROC5         |360_day             |aqua4K, aqua4xCO2, aquaControl                            |
@@ -70,4 +71,4 @@ No, see table below. The values in the table have been taken from the calendar a
 |MRI-CGCM3      |gregorian           |all                                                       |
 |MRI-ESM1       |gregorian           |all                                                       |
 |NorESM1-M      |365_day             |all                                                       |
-|NorESM1-ME     |                    |                                                          |
+|NorESM1-ME     |365_day             |all                                                       |
