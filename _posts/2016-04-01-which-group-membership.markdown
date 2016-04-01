@@ -2,11 +2,11 @@
 layout: post                     #<-- don't touch
 title:  "Which group membership is necessary for download of data of which project?" #<-- keep the quotes " ... "
 categories: login                #<-- No quotes, comma separated tags
-date:   2016-04-01 18:40:00      #<-- current date and time
+date:   2016-04-01 18:55:00      #<-- current date and time
 author: Torsten Rathmann         #<-- Replace with the name
 ---
 
-Data users need the following group memberships to be allowed to download data
+Users need the following group memberships to be allowed to download data:
 
 |Project  |Groups                                  |
 |:--------|:---------------------------------------|
