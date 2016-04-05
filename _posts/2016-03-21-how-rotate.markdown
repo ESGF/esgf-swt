@@ -2,7 +2,7 @@
 layout: post                     #<-- don't touch
 title:  "How can CORDEX data on a grid with rotated poles be rotated back?" #<-- keep the quotes " ... "
 categories: data                 #<-- No quotes, comma separated tags
-date:   2016-03-21 14:30:00      #<-- current date and time
+date:   2016-04-01 18:30:00      #<-- current date and time
 author: Torsten Rathmann, Bryan Lawrence, Matthias Büchner #<-- Replace with the name
 ---
 
@@ -27,7 +27,7 @@ More details in the [cf-python documentation][cf-python].
 
 **Solution 3: Use CDO**
 
-Climate Data Operator (CDO) offer [different ways of regridding][zmaw discussion], for example cdo rotuvb can perform a backward transformation of velocity components U and V from a rotated spherical system to a geographical system. More details in the [CDO documentation][cdo].
+Climate Data Operators (CDO) offer [different ways of regridding][zmaw discussion], for example cdo rotuvb can perform a backward transformation of velocity components U and V from a rotated spherical system to a geographical system. More details in the [CDO documentation][cdo].
 
 [cf-python]: http://cfpython.bitbucket.org/docs/latest/generated/cf.Field.regrids.html
 [zmaw discussion]: https://code.zmaw.de/boards/2/topics/1283
