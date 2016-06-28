@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>  
+<script type="text/javascript" src="{{ site.baseurl }}/js/simpleJekyllSearch.js"></script>
+<div class="home">
+  <h1 class="page-heading">Questions</h1>
+  <div class="well well-lg">
+    <div id="form-group">
+      <input type="text" id="search-input" placeholder="Search..." class="form-control">
+      <ul id="results-container"></ul>
+    </div>
+  </div>
+  <div class="alert alert-warning" role="alert">
+    Search box only searches the questions and tags, not the anwser text. To do a full body search please use your browser search <kbd><kbd>ctrl</kbd> + <kbd>F</kbd></kbd> or <kbd><kbd>command</kbd> + <kbd>F</kbd></kbd>  </div>
+
+  <hr>
+  <div class="list-groups">
+    {% for post in site.posts %}
+      <div class="list-group-item">
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p>{{ post.content }}</p>
+      </div>  
+    {% endfor %}
+  </div>
+
+<script type="text/javascript">
+  SimpleJekyllSearch.init({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    dataSource: '/esgf-swt/search.json',
+    searchResultTemplate: '<li><a href="{{site.baseurl}}/{url}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+  })
+</script>
+
+<style type="text/css">
+#search-demo-container {
+  max-width: 40em;
+  padding: 1em;
+  margin: 1em auto;
+  border: 1px solid lightgrey;
+}
+#search-input {
+  display: inline-block;
+  padding: .5em;
+  width: 100%;
+  font-size: 0.8em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+</style>
+
